@@ -1,0 +1,8 @@
+<div class="game-container">
+  <div class="game-board">
+      <div  *ngFor="let square of board ; let i = index" class="square" (click)="handlePlayer(i)">{{square}}</div>
+
+  </div>
+  <div class="circle"></div>
+  <div class="circle1"></div>
+</div>
